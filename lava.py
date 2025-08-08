@@ -18,7 +18,7 @@ while True:
             'id': 1,
         }
 
-        # 发送JSON-RPC请求
+        # 发送请求
         response = requests.post(rpc_url, json=request)
 
         # 检查响应
