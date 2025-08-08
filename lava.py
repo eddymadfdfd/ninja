@@ -26,7 +26,7 @@ while True:
             # 解析响应的JSON数据
             response_data = response.json()
 
-            # 检查"result"键是否存在
+            # 检查"result"
             if 'result' in response_data:
                 # 将余额从十六进制转换为十进制
                 balance = int(response_data['result'], 16)
