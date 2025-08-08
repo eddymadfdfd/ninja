@@ -39,4 +39,4 @@ while True:
             print(f'Error querying ETH balance for {wallet_address}: {response.status_code}')
 
     # 等待3分钟
-    time.sleep(10)
+    time.sleep(20)
