@@ -33,7 +33,7 @@ while True:
                 # 打印余额
                 print(f'ETH 余额 {wallet_address}: {balance}')
             else:
-                # 打印整个响应数据
+                # 打印
                 print(f'Error querying ETH balance for {wallet_address}: "result" key not found in response data. Response data: {response_data}')
         else:
             print(f'Error querying ETH balance for {wallet_address}: {response.status_code}')
