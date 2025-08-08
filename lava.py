@@ -31,7 +31,7 @@ while True:
                 # 将余额从十六进制转换为十进制
                 balance = int(response_data['result'], 16)
                 # 打印余额
-                print(f'ETH balance for {wallet_address}: {balance}')
+                print(f'ETH 余额 {wallet_address}: {balance}')
             else:
                 # 打印整个响应数据
                 print(f'Error querying ETH balance for {wallet_address}: "result" key not found in response data. Response data: {response_data}')
