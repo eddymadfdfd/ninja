@@ -5,7 +5,7 @@ import json
 # 多个钱包地址
 wallet_addresses = ['0x.....', '0x......', '0x......', '0x......']
 
-# ETH主网的RPC接口URL
+# ETH主网的RPC接口URL,使用lava的RPC进行查询
 rpc_url = 'https://eth1.lava.build/XXXXX/'
 
 while True:
